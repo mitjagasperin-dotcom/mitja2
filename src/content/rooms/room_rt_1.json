@@ -1,9 +1,0 @@
-{
-  "id": "room_rt_1",
-  "equations": [
-    { "type": "segment", "from": [0, 0], "to": [5, 0] },
-    { "type": "segment", "from": [0, 0], "to": [0, 4] },
-    { "type": "segment", "from": [0, 4], "to": [5, 0] }
-  ],
-  "puzzles": ["rt_leg_hypotenuse_basic"]
-}
