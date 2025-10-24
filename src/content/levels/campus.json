@@ -1,0 +1,41 @@
+{
+  "id": "campus",
+  "playerStart": [0, 0],
+  "houses": [
+    {
+      "id": "lecture_hall",
+      "n": 8,
+      "center": [6, 2],
+      "radius": 4,
+      "rotation": 0,
+      "doors": [{ "angle": 0, "width": 0.8 }]
+    }
+  ],
+  "agents": [
+    {
+      "id": "prof_penton",
+      "name": "Professor Penton",
+      "n": 5,
+      "pos": [4.5, 2],
+      "ai": "Scholar",
+      "dialogue": "lesson_intro_pentagon"
+    },
+    {
+      "id": "stu_tri_1",
+      "name": "Trix",
+      "n": 3,
+      "pos": [-3, -2],
+      "ai": "TriangleWander",
+      "dialogue": "triangle_hint"
+    }
+  ],
+  "lines": [
+    {
+      "id": "line_1",
+      "pos": [-5, 6],
+      "length": 4.0,
+      "speed": 1.2,
+      "rotSpeed": 0.7
+    }
+  ]
+}

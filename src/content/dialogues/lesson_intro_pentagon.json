@@ -1,0 +1,34 @@
+{
+  "id": "lesson_intro_pentagon",
+  "actor": {
+    "name": "Professor Penton",
+    "shape": { "type": "regular", "n": 5 }
+  },
+  "nodes": {
+    "start": {
+      "id": "start",
+      "text": "How many angles do you infer, student?",
+      "choices": [
+        { "label": "Four", "goto": "wrong", "effects": { "sidesDelta": -3 } },
+        { "label": "Five", "goto": "right", "effects": { "sidesDelta": 1 } },
+        { "label": "Permit me another circuit.", "goto": "hint" }
+      ]
+    },
+    "hint": {
+      "id": "hint",
+      "text": "Count silhouette inflections when you orbit.",
+      "choices": [{ "label": "Understood", "goto": "start" }]
+    },
+    "wrong": {
+      "id": "wrong",
+      "text": "Observe five narrowings, not four.",
+      "choices": [{ "label": "I will re-examine", "goto": "start" }]
+    },
+    "right": {
+      "id": "right",
+      "text": "Your inference is sound. Ascend.",
+      "choices": [],
+      "end": true
+    }
+  }
+}
