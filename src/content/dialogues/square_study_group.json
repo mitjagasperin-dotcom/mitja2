@@ -1,0 +1,19 @@
+{
+  "id": "square_study_group",
+  "actor": { "name": "Quadro", "shape": { "type": "regular", "n": 4 } },
+  "nodes": {
+    "start": {
+      "text": "We rehearse right angles nightly. Want to join?",
+      "choices": [
+        { "label": "Show me the drill.", "goto": "drill" },
+        { "label": "Another time.", "end": true }
+      ]
+    },
+    "drill": {
+      "text": "March north, then east. Ninety degrees always. You'll gain a side for crisp pivots.",
+      "choices": [
+        { "label": "I'll keep practicing.", "goto": "start", "effects": { "sidesDelta": 1 } }
+      ]
+    }
+  }
+}

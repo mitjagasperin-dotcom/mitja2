@@ -1,0 +1,19 @@
+{
+  "id": "triangle_hint_orbit",
+  "actor": { "name": "Trix", "shape": { "type": "regular", "n": 3 } },
+  "nodes": {
+    "start": {
+      "text": "The lines out there dance fast. Need a triangulation trick?",
+      "choices": [
+        { "label": "Yes, please.", "goto": "hint" },
+        { "label": "No, I can manage.", "end": true }
+      ]
+    },
+    "hint": {
+      "text": "Track three glows on the strip; their cadence means triangle.",
+      "choices": [
+        { "label": "Thanks!", "end": true }
+      ]
+    }
+  }
+}

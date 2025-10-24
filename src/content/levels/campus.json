@@ -1,0 +1,57 @@
+{
+  "id": "campus",
+  "playerStart": [0, 0],
+  "houses": [
+    {
+      "id": "lecture_hall",
+      "n": 8,
+      "center": [10, 4],
+      "radius": 6,
+      "rotation": 0,
+      "doors": [{ "angle": 0, "width": 0.8 }],
+      "roomId": "room_rt_1"
+    },
+    {
+      "id": "circle_hall",
+      "n": 6,
+      "center": [-8, -3],
+      "radius": 5,
+      "rotation": 0.4,
+      "doors": [{ "angle": 2.3, "width": 0.6 }],
+      "roomId": "room_circle_1"
+    }
+  ],
+  "agents": [
+    {
+      "id": "prof_penton",
+      "name": "Professor Penton",
+      "n": 5,
+      "pos": [8, 4],
+      "ai": "Scholar",
+      "dialogue": "lesson_intro_pentagon",
+      "intellectRank": "Scholar"
+    },
+    {
+      "id": "stu_tri_1",
+      "name": "Trix",
+      "n": 3,
+      "pos": [2, -3],
+      "ai": "TriangleWander",
+      "dialogue": "triangle_hint_orbit",
+      "intellectRank": "Student"
+    },
+    {
+      "id": "square_peer",
+      "name": "Quadro",
+      "n": 4,
+      "pos": [-2, 5],
+      "ai": "SquareStudent",
+      "dialogue": "square_study_group",
+      "intellectRank": "Student"
+    }
+  ],
+  "lines": [
+    { "id": "line_1", "pos": [-5, 6], "length": 4.0, "speed": 1.2, "rotSpeed": 0.7 },
+    { "id": "line_2", "pos": [4, -6], "length": 3.5, "speed": 0.8, "rotSpeed": 1.3 }
+  ]
+}

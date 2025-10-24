@@ -1,0 +1,10 @@
+{
+  "id": "circle_arc_ratio",
+  "type": "numeric_mcq",
+  "prompt": "A chord subtends 60° at the center of a circle of radius 2. What is the arc length?",
+  "choices": ["2π/3", "π", "4", "3"],
+  "correctIndex": 0,
+  "effectsOnCorrect": { "sidesDelta": 1 },
+  "effectsOnWrong": { "sidesDelta": -3 },
+  "explainWrong": "Arc length = r * θ = 2 * (π/3) = 2π/3."
+}

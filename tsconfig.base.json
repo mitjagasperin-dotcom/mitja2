@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "allowJs": false,
+    "checkJs": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@app/*": ["src/app/*"],
+      "@render/*": ["src/render/*"],
+      "@geom/*": ["src/geom/*"],
+      "@ecs/*": ["src/ecs/*"],
+      "@ui/*": ["src/ui/*"],
+      "@content/*": ["src/content/*"],
+      "@utils/*": ["src/utils/*"]
+    }
+  }
+}
