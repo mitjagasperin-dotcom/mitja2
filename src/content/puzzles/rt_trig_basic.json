@@ -1,0 +1,9 @@
+{
+  "id": "rt_trig_basic",
+  "type": "numeric_mcq",
+  "prompt": "For a right triangle with legs 3 (opposite) and 4 (adjacent), what is sin(θ)?",
+  "choices": ["3/5", "4/5", "5/3", "1/2"],
+  "correctIndex": 0,
+  "effectsOnCorrect": { "sidesDelta": 1 },
+  "effectsOnWrong": { "sidesDelta": -3, "explanation": "sin(θ) = opposite/hypotenuse = 3/5." }
+}

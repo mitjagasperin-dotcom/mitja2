@@ -1,0 +1,46 @@
+:root {
+  color-scheme: dark;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background-color: #0f0f10;
+  color: #f0f0f0;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.app-root {
+  display: grid;
+  grid-template-columns: 340px 1fr 260px;
+  grid-template-rows: 1fr;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.main-panel {
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(circle at 50% 20%, rgba(70, 70, 80, 0.15), rgba(0, 0, 0, 0.85));
+}
+
+.topdown-wrapper {
+  flex: 1;
+  position: relative;
+}
+
+.perception-wrapper {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}

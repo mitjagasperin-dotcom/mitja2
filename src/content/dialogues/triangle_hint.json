@@ -1,0 +1,23 @@
+{
+  "id": "triangle_hint",
+  "actor": { "name": "Trix", "shape": { "type": "regular", "n": 3 } },
+  "nodes": {
+    "start": {
+      "text": "The perception strip flickers at each vertex.",
+      "choices": [
+        { "label": "How do you track them?", "goto": "hint" },
+        { "label": "Counted already.", "goto": "praise", "effects": { "sidesDelta": 1 } }
+      ]
+    },
+    "hint": {
+      "text": "Glide sideways and note the rhythm.",
+      "choices": [
+        { "label": "I'll orbit now.", "goto": "start" }
+      ]
+    },
+    "praise": {
+      "text": "Quick! You gain an edge.",
+      "end": true
+    }
+  }
+}

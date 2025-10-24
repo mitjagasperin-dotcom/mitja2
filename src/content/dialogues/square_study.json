@@ -1,0 +1,23 @@
+{
+  "id": "square_study",
+  "actor": { "name": "Quadra", "shape": { "type": "regular", "n": 4 } },
+  "nodes": {
+    "start": {
+      "text": "North is steady; follow the compass glow.",
+      "choices": [
+        { "label": "How many doors here?", "goto": "explain" },
+        { "label": "Thanks.", "goto": "gratitude", "effects": { "sidesDelta": 1 } }
+      ]
+    },
+    "explain": {
+      "text": "One. Scholar inside tests right triangles.",
+      "choices": [
+        { "label": "I'll prepare.", "goto": "start" }
+      ]
+    },
+    "gratitude": {
+      "text": "Shared bearings sharpen edges.",
+      "end": true
+    }
+  }
+}

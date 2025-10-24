@@ -1,0 +1,45 @@
+{
+  "id": "campus",
+  "playerStart": [0, 0],
+  "houses": [
+    {
+      "id": "lecture_hall",
+      "n": 8,
+      "center": [8, 0],
+      "radius": 4.5,
+      "rotation": 0.2,
+      "doors": [
+        { "angle": 0, "width": 0.6, "targetRoomId": "room_rt_1" }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "id": "prof_penton",
+      "name": "Professor Penton",
+      "n": 5,
+      "pos": [4, 0],
+      "ai": "Scholar",
+      "dialogue": "lesson_intro_pentagon"
+    },
+    {
+      "id": "stu_tri_1",
+      "name": "Trix",
+      "n": 3,
+      "pos": [-3, -2],
+      "ai": "TriangleWander",
+      "dialogue": "triangle_hint"
+    },
+    {
+      "id": "sq_student",
+      "name": "Quadra",
+      "n": 4,
+      "pos": [2, 3],
+      "ai": "SquareStudent",
+      "dialogue": "square_study"
+    }
+  ],
+  "lines": [
+    { "id": "line_1", "pos": [1, -4], "length": 4.0, "speed": 1.2, "rotSpeed": 0.7 }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "sq_student",
+  "name": "Quadra",
+  "sides": 4,
+  "intellectRank": "Square",
+  "dialogue": "square_study"
+}

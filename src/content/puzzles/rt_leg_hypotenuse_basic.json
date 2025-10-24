@@ -1,0 +1,9 @@
+{
+  "id": "rt_leg_hypotenuse_basic",
+  "type": "numeric_mcq",
+  "prompt": "Given legs 3 and 4, what is the hypotenuse?",
+  "choices": ["5", "6", "7", "√34"],
+  "correctIndex": 0,
+  "effectsOnCorrect": { "sidesDelta": 1 },
+  "effectsOnWrong": { "sidesDelta": -3, "explanation": "By the Pythagorean theorem, c = sqrt(3^2+4^2) = 5." }
+}

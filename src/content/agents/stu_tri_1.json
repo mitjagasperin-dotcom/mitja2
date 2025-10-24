@@ -1,0 +1,7 @@
+{
+  "id": "stu_tri_1",
+  "name": "Trix",
+  "sides": 3,
+  "intellectRank": "Triangle",
+  "dialogue": "triangle_hint"
+}
