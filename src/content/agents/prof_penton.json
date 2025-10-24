@@ -1,0 +1,7 @@
+{
+  "id": "prof_penton",
+  "name": "Professor Penton",
+  "sides": 5,
+  "intellectRank": "Scholar",
+  "dialogue": "lesson_intro_pentagon"
+}

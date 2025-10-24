@@ -1,0 +1,7 @@
+{
+  "id": "tri_trix",
+  "name": "Trix",
+  "sides": 3,
+  "intellectRank": "TriangleWander",
+  "dialogue": "triangle_hint"
+}
